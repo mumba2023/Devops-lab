@@ -1,9 +1,9 @@
  aws_region = "us-east-1"
  aws_instance_type  = "t2.medium"
  aws_key = "jenkins-jgrog-key"
- qa_server = false
- uat_server = false
- jfrog_server = false
+ qa_server = true
+ uat_server = true
+ jfrog_server = true
  profile = "default"
- jenkins_ami = "ami-0c2e87ba34a85b977"
- jfrog_ami   = "ami-064bd5050ca35013f"
+ jenkins_ami = "ami-0ff08affdaba8cc8c"
+ jfrog_ami   = "ami-0a09fb46f6002a46a"
